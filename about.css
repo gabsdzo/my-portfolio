@@ -1,0 +1,122 @@
+/* General About Page Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e; /* Dark background color */
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #444;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Navigation Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 100px auto 80px auto; /* Center content and add more padding-bottom */
+    padding: 1rem;
+    padding-bottom: 80px; /* Increased bottom padding */
+}
+
+/* Heading Styles */
+h2 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* General Section Styles */
+.section {
+    margin-bottom: 2rem;
+}
+
+/* About Me Section */
+.about p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Education and Experience Section */
+.details {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.details strong {
+    color: white;
+}
+
+/* Skills Section */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #555;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Certificates Section */
+.certificates a {
+    color: white; /* Change the text color of the certificate links */
+    text-decoration: none;
+}
+
+.certificates a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #444;
+    position:   fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 80px;
+    height: 50px;/* Add space between the content and footer */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
